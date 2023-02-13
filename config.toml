@@ -1,0 +1,4 @@
+baseURL = 'https://huangjunye.github.io/'
+languageCode = 'en-us'
+title = 'Huang Junye'
+theme = 'ananke'
