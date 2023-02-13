@@ -2,3 +2,25 @@ baseURL: https://huangjunye.github.io/
 languageCode: en-us
 title: Junye Huang
 theme: "PaperMod"
+
+params:
+  defaultTheme: auto
+  profileMode:
+    enabled: true
+    imageUrl: https://avatars.githubusercontent.com/u/7631333?v=4
+  
+  socialIcons:
+    - name: KoFi
+      url: https://ko-fi.com/junye
+    - name: github
+      url: https://github.com/HuangJunye
+    - name: twitter
+      url: https://twitter.com/HuangJunye
+    - name: linkedin
+      url: https://www.linkedin.com/in/huangjunye/
+    - name: slack
+      url: https://qiskit.slack.com/team/UG1GZP8PL
+    - name: stackoverflow
+      url: https://quantumcomputing.stackexchange.com/users/7474/junye-huang
+    - name: email
+      url: mailto:h.jun.ye@gmail.com
