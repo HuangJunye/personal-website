@@ -24,3 +24,21 @@ params:
       url: https://quantumcomputing.stackexchange.com/users/7474/junye-huang
     - name: email
       url: mailto:h.jun.ye@gmail.com
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: about
+          url: about
+          weight: 5
+        - name: blog
+          url: blog
+          weight: 10
+
