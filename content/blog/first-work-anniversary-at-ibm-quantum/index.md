@@ -1,6 +1,6 @@
 ---
 title: First Work Anniversary at IBM Quantum
-date: 2021-03-02T20:28:07+01:00
+date: 2021-03-02
 ---
 
 Today is my first work anniversary at IBM Quantum. I figure it’s a good occasion to pause for a moment and reflect what I have done and learned in the past one year.

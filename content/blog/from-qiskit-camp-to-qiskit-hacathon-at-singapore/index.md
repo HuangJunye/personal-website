@@ -1,6 +1,6 @@
 ---
 title: From Qiskit Camp to Qiskit Hackathon @ Singapore
-date: 2019-10-17T20:28:07+01:00
+date: 2019-10-17
 ---
 
 ![Qiskit Hackathon @ Singapore Participants and Organizers](group_photo.jpg)
