@@ -1,6 +1,8 @@
 ---
 title: APS March Meeting 2019
 date: 2019-03-13
+tags:
+- physics
 ---
 
 ![Conference Venue](venue.jpg)

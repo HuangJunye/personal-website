@@ -1,6 +1,8 @@
 ---
 title: Qiskit Camp 2019
 date: 2019-03-14
+tags:
+- qiskit
 ---
 
 ![4am Club](4am_club.jpg)
