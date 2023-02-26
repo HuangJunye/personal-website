@@ -1,0 +1,35 @@
+---
+layout: post
+title: 1D Quantum Random Walk
+date: 
+type: post
+parent_id: '0'
+published: false
+password: ''
+status: draft
+categories:
+- Default
+tags: []
+meta:
+  _edit_last: '98778898'
+author:
+  login: hjunye
+  email: h.jun.ye@gmail.com
+  display_name: Huang Junye
+  first_name: ''
+  last_name: ''
+permalink: "/"
+---
+<p>Introduction</p>
+<p>Quantum random walk (QRW) is the quantum version of the classical random walk. It would be easier to understand the quantum version, if you get a picture of the classical version. Imagine you are walking in a narrow street, in which you can only walk forwards or backwards. You are playing this random walk game. You toss a coin: if it's head, you walk one step forwards; if it's tail, you walk one step backwards. If you keep tossing and walking, you are essentially doing a classical random walk (CRW) (in 1 dimension). It's that simple. If you calculate the probability of your position after N steps, you will get a Gaussian distribution. Galton board is probably a more familiar example of CRW than the game I just mentioned. You can see the Youtube video below.</p>
+<p>https://www.youtube.com/watch?v=6YDHBFVIvIs</p>
+<p>So what about the quantum version? What's so fancy about it? One peculiar thing in quantum mechanics (or Nature actually) is that you can have a superposition of two different state. So if  you (too massive to get superposition, just imagine you are a photon or electron) were to play the quantum version of random walking game, you can have a quantum coin which can have a superposition of head ($latex \left|\uparrow\right&gt; $)<span class="token keyword"> </span>and tail state($latex \left|\downarrow\right&gt; $). Even more peculiar is that, you can have superposition of yourself at different locations! So if you measure the probability of your position after N steps, you will not get a Gaussian distribution, but a strange bimodal distribution. Unlike CRW where the most probable position is at the origin (the center), the most probable position in QRW is close to the two end (but not quite to the farthest possible position yet, about 0.7N-2 when 20&lt;N&lt;500).</p>
+<p><img class="alignnone size-full wp-image-300" src="{{ site.baseurl }}/assets/1d-dqrw-balancedcoin-superposedintitial-nozero-200steps.png" alt="1D-DQRW-BalancedCoin-SuperposedIntitial-NoZero-200steps" width="5000" height="3187" /></p>
+<p>Some other peculiar properties for QRW includes:</p>
+<ol>
+<li>The probability distribution depends on your initial coin state,  $latex \left|\uparrow\right&gt; $, $latex \left|\downarrow\right&gt; $ or their superposition $latex \frac{1}{\sqrt{2}}(\left|\uparrow\right&gt;+\left|\downarrow\right&gt;)$.</li>
+<li> The probability distribution depends on the coin-flip operator (we will see below)</li>
+<li>QRW spreads $latex \sqrt{N}$ faster than CRW.</li>
+</ol>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
