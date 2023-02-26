@@ -5,8 +5,10 @@ theme: "PaperMod"
 
 params:
   defaultTheme: auto
+  ShowCodeCopyButtons: true
   profileMode:
     enabled: true
+    subtitle: Quantum Developer Advocate, IBM Quantum
     imageUrl: https://avatars.githubusercontent.com/u/7631333?v=4
   
   socialIcons:

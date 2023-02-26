@@ -1,6 +1,8 @@
 ---
 title: My Talks
 modified: 2023-02-26
+ShowToc: true
+TocOpen: true
 ---
 
 ## Let's build QPong from scratch!
