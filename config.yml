@@ -44,4 +44,7 @@ languages:
         - name: projects
           url: projects
           weight: 15
+        - name: talks
+          url: talks
+          weight: 20
 
