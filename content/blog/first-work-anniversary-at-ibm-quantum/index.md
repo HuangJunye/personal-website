@@ -9,7 +9,7 @@ Today is my first work anniversary at IBM Quantum. I figure it’s a good occasi
 
 I mind you that this blog post is very lengthy. So I want to start off with some highlights of the things I have done (in no particular order).
 
-{{< tweet user="HuangJunye" id="1310765609769029632" >}}
+{{< tweet HuangJunye 1310765609769029632 >}}
 
 - **[Got a like from the legendary Peter Shor!](https://twitter.com/HuangJunye/status/1310765609769029632?s=20)** for making a browser playable version of QPong. Definitely one of the biggest moment of my career.
 - **Received [Outstanding Accomplishment recognition from IBM Research (IBM internal link)](https://w3.ibm.com/w3publisher/ibm-research/recognition/ibm-research-accomplishments/outstanding-research-accomplishments)** together with the team behind Qiskit Global Summer School and Qiskit textbook. I don’t feel I deserve this award. Outstanding research achievement award is highest level of recognition in IBM Research and my contributions to Qiskit Global Summer School and Qiskit textbook are quite insignificant. All the credits go to great teamwork!
@@ -113,7 +113,7 @@ I also want to start writing blogs again. I used to blog regularly before and du
 
 On a more personal goal, I want to read more books this year. I haven't read books seriously for ages. During last Christmas holidays, I read 3 books in a roll. It felt really great. So I decided that this year I’ll read more books. Just got a brand new Kobo Clara HD e-reader as first work anniversary gift for myself. I can borrow ebooks from national libraries in Singapore right on the e-book reader via Overdrive which is really great.
 
-{{< tweet user="HuangJunye" id="1234477416296267777" >}}
+{{< tweet HuangJunye 1234477416296267777 >}}
 
 One more thing... I kept my Zelda Breath of the Wild to play when I started the job as a way to remember the start of a great adventure. But for some reasons I just can’t get into the game similar to how I feel for other 3D Zelda game like Ocarina of Time. Instead I played SNES Zelda A Link To The Past which I enjoyed immensely like it’s sequel A Link Between Two Worlds on 3DS. Now with more news about BOTW2 coming up, I should finish this masterpiece BOTW this year before BOTW2 release?
 
