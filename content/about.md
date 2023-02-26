@@ -1,6 +1,5 @@
 ---
-title: "About Me"
-showReadingTime: false
+title: About Me
 modified: 2023-02-20
 ---
 

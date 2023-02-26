@@ -41,4 +41,7 @@ languages:
         - name: blog
           url: blog
           weight: 10
+        - name: projects
+          url: projects
+          weight: 15
 
