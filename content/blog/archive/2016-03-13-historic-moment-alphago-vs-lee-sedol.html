@@ -1,0 +1,41 @@
+---
+layout: post
+title: 'Historic Moment: AlphaGo vs Lee Sedol'
+date: 2016-03-13 11:35:54.000000000 +08:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Default
+tags:
+- Al
+- AlphaGo
+- Deep Learning
+- Go
+- Google
+- Lee Sedol
+meta:
+  _rest_api_published: '1'
+  _rest_api_client_id: "-1"
+  _publicize_job_id: '20710759318'
+author:
+  login: hjunye
+  email: h.jun.ye@gmail.com
+  display_name: Huang Junye
+  first_name: ''
+  last_name: ''
+permalink: "/2016/03/13/historic-moment-alphago-vs-lee-sedol/"
+---
+<p><img class="alignnone size-full wp-image-390" src="{{ site.baseurl }}/assets/alphago-lee-sedol-game-3-demis-hassabis-lee-sedol-sergey-brin.jpg" alt="AlphaGo-Lee-Sedol-game-3-Demis-Hassabis-Lee-Sedol-Sergey-Brin.jpg" width="900" height="600" /></p>
+<p>This week has been really exciting for me. I can't believe that I can see a live match between human and computer for Go, very much like <a href="https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov">the historic chess match between Kasparov and IBM Deep Blue in 1997</a>. (I didn't watch this game; I was still in kindergarten) I just had a quick look at Deep Blue's wiki. AlphaGo is actually much more powerful in Go than Deep Blue was in chess.</p>
+<p>First, human intervention was needed for Deep Blue to modify the program between the games, to shore up the weaknesses revealed during the games. In the case of AlphaGo, Google claimed that the program remains the same throughout the match.</p>
+<p>Second, Deep Blue lost the first match (of 6 games) against Kasparov in 1996. It needed heavy upgrade to beat Kasparov with a margin: 3½:2½ in 1997, while for AlphaGo, it didn't give Lee Sedol a single chance to win so far (3:0 right now, the fourth game is ongoing at this moment) (Update: Lee Sedol just won the fourth game! So now the score is 3:1!)</p>
+<p>Deep Blue's strategy is "brute force". It uses strong computation power to calculate all the possible positions in many steps ahead. (It can evaluate 200 millions positions per second according to <a href="https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)">Wikipedia</a>) In June 1997, Deep Blue was the 259th most powerful supercomputer according to the TOP500 list, with 11.38 GFLOPs computation power. (I was checking how powerful is 11.38GFLOPS, and found out that it's only at the same level of iPhone 4s's CPU)</p>
+<p><img class="alignnone size-full wp-image-387" src="{{ site.baseurl }}/assets/alphago.png" alt="AlphaGo.png" width="1064" height="1016" /></p>
+<p>Of course, almost 20 years later, AlphaGo uses much more powerful hardware than Deep Blue. It uses 1920 CPUs and 280 GPUs, that means it has computation power above 100TFLOPS. (assuming 50GFLPS per CPU). The 500th on TOP500 list in Nov 2015 has about 200TFLOPS computation power, so AlphaGo's hardware can probably be listed on TOP500 too. However, because of the complexity of Go, even with a 10000 times more powerful hardware, AlphaGo can't use "brute force" approach. According to the <a href="http://www.nature.com/nature/journal/v529/n7587/full/nature16961.html">Nature paper</a> published by Google, AlphaGo combines Monte Carlo tree search algorithm with a policy network and a value network to play the game. The value network evaluate the positions, and the policy network selects the move. (I haven't read through the Nature paper yet, so I can't really explain how it works) By combining these two networks, AlphaGo can limit the number of searches to a few positions on the board and a few tens of steps ahead.</p>
+<p>Before writing this post, I was really amazed by the ability of AlphaGo to win against the strongest human Go player. But after knowing that this program needed so much work and innovations in the software and so much power on the hardware, I started to appreciate the power of human brain. There are still a lot of jobs that machine can't do, fortunately or unfortunately. But the future is clear: we will have much more powerful AI in our daily life. Our human need to co-evolve with them. Maybe one day in the future, we don't need to learn anything. Every single technical and professional job will be done by computer. Our job is to enjoy our life. But will we enjoy our life if we don't need to work? Will AI take over our world like Ghost in the Shell and Ultron from Avengers? Elon Musk CEO of Tesla Motor and SpaceX) and Sam Altman (President of Y combinator) <a href="http://www.wired.com/2015/12/elon-musks-billion-dollar-ai-plan-is-about-far-more-than-saving-the-world/">created a billion dollar not-for-profit organization called OpenAI</a> to prevent some companies or countries using AI to take over the world. That actually doesn't prevent AI <em>itself</em> from taking over the world though.</p>
+<p>Anyway, this series of game has generated a lot of attentions to AI and machine learning. It will inspire a lot of young people to learn AI and ML. It might also have attached the attentions of policy makers and funding agencies. Like someone said, AI has been pushed forward for 10 years in the last few days.</p>
+<p>There is one more game to enjoy on Tuesday. (in fact I can't really "enjoy" the game by watching it because I barely knows the rules of Go and played a few times in my life) Hope Lee Sedol can win one more time.</p>
+<p>&nbsp;</p>
