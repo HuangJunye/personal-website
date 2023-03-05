@@ -5,6 +5,8 @@ ShowToc: true
 TocOpen: true
 ---
 
+{{< AboutList "talks" >}}
+
 ## Let's build QPong from scratch!
 
 - Date: 2022-12-03
